@@ -1,2 +1,3 @@
-# zapzap2.0
- Aumentar a velocidade dos aúdios no whats
+## Detailed Description
+
+zazap 2.0

@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "zapzap 2.0",
+    "version": "0.1",
+    "description": "Seu whats personalizado",
+    "author": "Felipe Passos",
+    "browser_action": {
+        "default_icon": "128.png",
+        "default_title": "zapzap"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "background.js"
+            ],
+            "html": [
+                "index.html"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "128.png"
+    }
+}
